@@ -1,99 +1,50 @@
 # Quick start
 
-It is recommended to install `docsify-cli` globally, which helps initializing and previewing the website locally.
+Add these four CLI tools that will help you in each step (needed)
 
-```bash
-npm i docsify-cli -g
-```
+1. [rename](https://pub.dev/packages/rename)
+- add this library in `pubspec.yaml` rename: latest-version
+- ```flutter pub global activate rename```
+
+2. [flutter_launcher_icons](https://pub.dev/packages/flutter_launcher_icons)
+- add this library in `pubspec.yaml` flutter_launcher_icons: latest-version
+
+3. [Flutterfire CLI](https://firebase.flutter.dev/docs/cli/)
+- install [Node.js](https://nodejs.org/en/download)
+- Run this command `npm install -g firebase-tools`
+- ```dart pub global activate flutterfire_cli```
+
+4. [Stacked CLI](https://stacked.filledstacks.com/docs/tooling/stacked-cli/)
+- ```dart pub global activate stacked_cli```
 
 ## Initialize
 
-If you want to write the documentation in the `./docs` subdirectory, you can use the `init` command.
+Clone the ship app fast github repo
 
 ```bash
-docsify init ./docs
+git clone https://github.com/MDSADABWASIM/ship-app-fast <your_app_name_here>
 ```
 
-## Writing content
+## Rename app packages and name (needed)
 
-After the `init` is complete, you can see the file list in the `./docs` subdirectory.
+Run these commands one by one and replace your-app-name and your-bundle-id with your selected values: 
+- ```rename setAppName --targets ios,android --value "your-app-name"```
+- ```rename setBundleId --targets android --value "<your-bundle-id>" ex:"com.example.bundleId"```
 
-- `index.html` as the entry file
-- `README.md` as the home page
-- `.nojekyll` prevents GitHub Pages from ignoring files that begin with an underscore
 
-You can easily update the documentation in `./docs/README.md`, of course you can add [more pages](more-pages.md).
+## Change your app icons
 
-## Preview your site
+- Replace your android icon on assets/icons/android_icon.png
+- Replace your iOS icon on assets/icons/ios_icon.png
+- `flutter pub get`
+- `flutter pub run flutter_launcher_icons`
 
-Run the local server with `docsify serve`. You can preview your site in your browser on `http://localhost:3000`.
+## Add Firebase in app (needed)
+- ```flutterfire configure```
+-   Import the generated file in main.dart  ```import 'firebase_options.dart';```
 
-```bash
-docsify serve docs
-```
+## To speed up development use Stacked CLI
+-   Example to create a new service: ```stacked create service onesignal```
 
-?> For more use cases of `docsify-cli`, head over to the [docsify-cli documentation](https://github.com/docsifyjs/docsify-cli).
-
-## Manual initialization
-
-If you don't like `npm` or have trouble installing the tool, you can manually create `index.html`:
-
-```html
-<!-- index.html -->
-
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta charset="UTF-8" />
-    <link
-      rel="stylesheet"
-      href="//cdn.jsdelivr.net/npm/docsify@4/themes/vue.css"
-    />
-  </head>
-  <body>
-    <div id="app"></div>
-    <script>
-      window.$docsify = {
-        //...
-      };
-    </script>
-    <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-  </body>
-</html>
-```
-
-### Specifying docsify versions
-
-?> Note that in both of the examples below, docsify URLs will need to be manually updated when a new major version of docsify is released (e.g. `v4.x.x` => `v5.x.x`). Check the docsify website periodically to see if a new major version has been released.
-
-Specifying a major version in the URL (`@4`) will allow your site will receive non-breaking enhancements (i.e. "minor" updates) and bug fixes (i.e. "patch" updates) automatically. This is the recommended way to load docsify resources.
-
-```html
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/themes/vue.css" />
-<script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-```
-
-If you prefer to lock docsify to a specific version, specify the full version after the `@` symbol in the URL. This is the safest way to ensure your site will look and behave the same way regardless of any changes made to future versions of docsify.
-
-```html
-<link
-  rel="stylesheet"
-  href="//cdn.jsdelivr.net/npm/docsify@4.11.4/themes/vue.css"
-/>
-<script src="//cdn.jsdelivr.net/npm/docsify@4.11.4"></script>
-```
-
-### Manually preview your site
-
-If you have Python installed on your system, you can easily use it to run a static server to preview your site.
-
-```python2
-cd docs && python -m SimpleHTTPServer 3000
-```
-
-```python3
-cd docs && python -m http.server 3000
-```
-
+?> For more use cases of `stacked-cli`, head over to the [stacked-cli documentation](https://stacked.filledstacks.com/docs/getting-started/overview)
 
