@@ -1,14 +1,13 @@
-## Ship app faster
+## App thing
 
-> A magical boilerplate to build app faster
-
-## What it is
-
-See the [Quick start](quickstart.md) guide for more details.
+> Build app faster with best practices
 
 ## Features
 
 - Simple and lightweight
 - Easy to follow guide
-- Direct support 
+- Direct support for using it.
 
+## Start building your app
+
+Go to **[Setup](setup.md)** section.

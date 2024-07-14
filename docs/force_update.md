@@ -1,7 +1,5 @@
 # Force update
 
-## What is force update?
-
 Force update is a feature that allows users to update your app to the latest version and prevent user to use the old version.
 
 ## How to implement force update?
@@ -14,11 +12,18 @@ Force update is a feature that allows users to update your app to the latest ver
 
 ```
 // make it true when you want to force your user to update the app
-"force_update": false 
+force_update: false 
 
 // Android version which you want your user to use
-"force_update_android_version": "1.0.0" 
+force_update_android_version: "1.0.0" 
 
 // iOS version which you want your user to use
-"force_update_ios_version": "1.0.0" 
+force_update_ios_version: "1.0.0" 
 ```
+
+- Once done, update these values in remote config, whenever you want to **force** your user to update the app.
+
+
+## Next step
+
+Go to **[Onboarding](onboarding.md)** section.

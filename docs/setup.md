@@ -1,6 +1,6 @@
-# Quick start
+# Setup
 
-Add these four CLI tools that will help you in each step (needed)
+**Add these four CLI tools that will help you in each step (needed)**
 
 1. ### [Rename](https://pub.dev/packages/rename)
 - add this library in `pubspec.yaml` rename: latest-version
@@ -54,11 +54,12 @@ SUPABASE_API_URL = ''
 ```
 
 ## To speed up development use Stacked CLI
--   Example to create a new service: ```stacked create service onesignal```
+-   **[Stacked](https://stacked.filledstacks.com)** is an MVVM based architecture that helps you to build your app faster.
+-   You can create new services, views and viewModels with a single command.
 
 ?> For more use cases of `stacked-cli`, head over to the [stacked-cli documentation](https://stacked.filledstacks.com/docs/getting-started/overview)
 
 ## Setup is done, Let's start configuring your app
 
-Go to **[Configuration](configuration.md)** section.
+Go to **[Force update](force_update.md)** section.
 

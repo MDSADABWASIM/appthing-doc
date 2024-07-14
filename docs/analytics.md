@@ -1,7 +1,5 @@
 # Analytics
 
-## What is analytics?
-
 Analytics is a feature that allows you to track user behavior and measure the effectiveness of your app.
 
 ## How to implement analytics?
@@ -25,3 +23,8 @@ setUserProperty(userId, userEmail);
 ```dart
 setAppVersion();
 ```
+
+
+## Next step
+
+Go to **[Crashlytics setup](crashlytics.md)** section.

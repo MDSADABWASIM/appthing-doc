@@ -10,8 +10,4 @@
   - [Analytics](analytics.md)
   - [Crashlytics](crashlytics.md)
 
-- Guide
-
-  - [Deploy](deploy.md)
-
-- [Contact us](changelog.md)
+- [Contact us](contact_us.md)

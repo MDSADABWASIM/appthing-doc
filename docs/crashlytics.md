@@ -1,7 +1,5 @@
 # Crashlytics
 
-## What is crashlytics?
-
 Crashlytics is a feature that allows you to track and analyze crashes and exceptions in your app.
 
 ## How to implement crashlytics?
@@ -12,6 +10,13 @@ Crashlytics is a feature that allows you to track and analyze crashes and except
 ```dart
 recordError(exception, stackTrace, exceptionReason);
 ```
+
 ```dart
 errorLog(error);
 ```
+
+## Next step
+
+Congratulations🎉 You've successfully completed all the steps to setup your app.
+
+Now you can start building your app and deploy it carefree.
