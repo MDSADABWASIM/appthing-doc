@@ -6,6 +6,5 @@
 
 - Simple and lightweight
 - Easy to follow guide
-- Direct support 
 
-[Getting Started](#ship-app-faster)
+[Getting Started](#app-thing)
