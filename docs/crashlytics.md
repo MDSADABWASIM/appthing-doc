@@ -17,6 +17,8 @@ errorLog(error);
 
 ## Next step
 
-Congratulations🎉 You've successfully completed all the steps to setup your app.
+Congratulations 🎉🎉🎉
+
+You've successfully completed all the steps to setup your app.
 
 Now you can start building your app and deploy it carefree.

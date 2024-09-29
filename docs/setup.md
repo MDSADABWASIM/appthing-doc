@@ -1,5 +1,13 @@
 # Setup
 
+## Initialize
+
+Clone the appthing github repo
+
+```bash
+git clone https://github.com/MDSADABWASIM/appthing <your_app_name_here>
+```
+
 **Add these four CLI tools that will help you in each step (needed)**
 
 1. ### [Rename](https://pub.dev/packages/rename)
@@ -17,13 +25,6 @@
 4. ### [Stacked CLI](https://stacked.filledstacks.com/docs/tooling/stacked-cli/)
 - ```dart pub global activate stacked_cli```
 
-## Initialize
-
-Clone the ship app fast github repo
-
-```bash
-git clone https://github.com/MDSADABWASIM/ship-app-fast <your_app_name_here>
-```
 
 ## Rename app packages and name (needed)
 

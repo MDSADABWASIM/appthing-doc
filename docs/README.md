@@ -6,7 +6,7 @@
 
 - Simple and lightweight
 - Easy to follow guide
-- Direct support for using it.
+- Direct support for using it
 
 ## Start building your app
 
