@@ -26,8 +26,7 @@ git clone https://github.com/MDSADABWASIM/appthing <your_app_name_here>
 
 - Go to `package_rename_config.yaml` file and update the app_name, package_name, bundle_name as required.
 - Check an example config [here](https://github.com/chandrabezzo/package_rename/blob/main/example/example.md#default-configuration)
-- Then run this command:
-- ```dart run package_rename_plus```
+- Then run this command ```dart run package_rename_plus```
 - Then go to `pubspec.yaml` and change the name from `name: ship_app` to `name: your_app_name`
 
 
