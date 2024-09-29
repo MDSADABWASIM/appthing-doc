@@ -2,11 +2,27 @@
 
 ## Initialize
 
-Clone the appthing github repo
+### Step 1: Clone the appthing github repo
 
 ```bash
-git clone https://github.com/MDSADABWASIM/appthing <your_app_name_here>
+git clone https://github.com/MDSADABWASIM/appthing <your_repo_name_here>
 ```
+### Step 2: Remove the .git directory
+`cd <your_repo_name_here>` and then run this command
+
+```bash
+rm -rf .git
+```
+### Step 3: Initialize a new Git repository
+```bash
+git init
+```
+### Step 4: Add your repository url
+```bash
+git remote add origin <your_repo_url_here>
+```
+
+## Tools needed
 
 **Add these four CLI tools that will help you in each step (needed)**
 
