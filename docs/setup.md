@@ -44,6 +44,7 @@ git remote add origin <your_repo_url_here>
 - Check an example config [here](https://github.com/chandrabezzo/package_rename/blob/main/example/example.md#default-configuration)
 - Then run this command ```dart run package_rename_plus```
 - Then go to `pubspec.yaml` and change the name from `name: ship_app` to `name: your_app_name`
+- Do a global search & replace for `ship_app` to `your_app_name`
 
 
 ## Change your app icons
