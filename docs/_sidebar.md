@@ -1,6 +1,6 @@
 - Getting started
 
-  - [Setup](quickstart.md)
+  - [Setup](setup.md)
   - [Force update](force_update.md)
   - [Onboarding](onboarding.md)
   - [Auth](auth.md)
